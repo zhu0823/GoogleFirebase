@@ -15,6 +15,8 @@
 		0A5133B72459A09E00F0C6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5133B52459A09E00F0C6C1 /* LaunchScreen.storyboard */; };
 		0A5133BA2459A09E00F0C6C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5133B92459A09E00F0C6C1 /* main.m */; };
 		0A5133C12459A1AA00F0C6C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5133C02459A1AA00F0C6C1 /* GoogleService-Info.plist */; };
+		0A5133C42459D43A00F0C6C1 /* FirebaseRecognitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5133C32459D43A00F0C6C1 /* FirebaseRecognitionVC.m */; };
+		0A5133C62459DBDD00F0C6C1 /* FirebaseRecognitionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5133C52459DBDD00F0C6C1 /* FirebaseRecognitionVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		0A5133B82459A09E00F0C6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5133B92459A09E00F0C6C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A5133C02459A1AA00F0C6C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A5133C22459D43A00F0C6C1 /* FirebaseRecognitionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseRecognitionVC.h; sourceTree = "<group>"; };
+		0A5133C32459D43A00F0C6C1 /* FirebaseRecognitionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseRecognitionVC.m; sourceTree = "<group>"; };
+		0A5133C52459DBDD00F0C6C1 /* FirebaseRecognitionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirebaseRecognitionVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,9 @@
 				0A5133AB2459A09D00F0C6C1 /* SceneDelegate.m */,
 				0A5133AD2459A09D00F0C6C1 /* ViewController.h */,
 				0A5133AE2459A09D00F0C6C1 /* ViewController.m */,
+				0A5133C22459D43A00F0C6C1 /* FirebaseRecognitionVC.h */,
+				0A5133C32459D43A00F0C6C1 /* FirebaseRecognitionVC.m */,
+				0A5133C52459DBDD00F0C6C1 /* FirebaseRecognitionVC.xib */,
 				0A5133B02459A09D00F0C6C1 /* Main.storyboard */,
 				0A5133B32459A09E00F0C6C1 /* Assets.xcassets */,
 				0A5133B52459A09E00F0C6C1 /* LaunchScreen.storyboard */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5133C62459DBDD00F0C6C1 /* FirebaseRecognitionVC.xib in Resources */,
 				0A5133B72459A09E00F0C6C1 /* LaunchScreen.storyboard in Resources */,
 				0A5133C12459A1AA00F0C6C1 /* GoogleService-Info.plist in Resources */,
 				0A5133B42459A09E00F0C6C1 /* Assets.xcassets in Resources */,
@@ -154,6 +163,7 @@
 				0A5133A92459A09D00F0C6C1 /* AppDelegate.m in Sources */,
 				0A5133BA2459A09E00F0C6C1 /* main.m in Sources */,
 				0A5133AC2459A09D00F0C6C1 /* SceneDelegate.m in Sources */,
+				0A5133C42459D43A00F0C6C1 /* FirebaseRecognitionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FirebaseRecognitionVC.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,11 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)firebaseRecognitionAction:(id)sender {
+    
+    [self presentViewController:[[FirebaseRecognitionVC alloc] init] animated:YES completion:^{
+        
+    }];
+}
 
 @end
